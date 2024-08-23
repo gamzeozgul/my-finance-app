@@ -36,32 +36,39 @@
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/gamzeozgul/my-finance-app.git
    cd my-finance-app
-Install dependencies for the frontend:
 
-bash
-Copy code
-cd frontend
-npm install
-Set up the backend: Ensure your SQL Server is running and accessible. Create a database named FinanceApp and configure the connection string in the backend.
+2. **Install dependencies for the frontend:**:
 
-Run the development server:
+   ```bash
+   cd frontend
+   npm install
 
-bash
-Copy code
-npm start
-Usage
-Accessing the App: Once the development server is running, open your browser and navigate to http://localhost:3000 to view the application.
+3. **Set up the backend:**:
 
-Portfolio Management: Use the app to add new assets, view your portfolio's performance, and analyze historical data.
+Ensure your SQL Server is running and accessible. Create a database named FinanceApp and configure the connection string in the backend.
 
-Database Setup
-SQL Server Configuration:
+4. **Install dependencies for the frontend:**:
 
-Open SQL Server Management Studio and create a new database named FinanceApp.
-Run the SQL scripts provided in the backend/sql folder to create necessary tables and seed data.
-Connection String:
+   ```bash
+   npm start
+   
+## Usage
 
-Update the connection string in the backend configuration file to match your SQL Server setup.
+- **Accessing the App:** Once the development server is running, open your browser and navigate to http://localhost:3000 to view the application.
+- **Portfolio Management:** Use the app to add new assets, view your portfolio's performance, and analyze historical data.
+
+## Database Setup
+
+1. **SQL Server Configuration:**
+
+- Open SQL Server Management Studio and create a new database named FinanceApp.
+- Run the SQL scripts provided in the backend/sql folder to create necessary tables and seed data.
+
+2. **Connection String:**
+
+- Update the connection string in the backend configuration file to match your SQL Server setup.
+
